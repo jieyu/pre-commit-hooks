@@ -1,0 +1,6 @@
+- id: check-oci-commit-message
+  name: Check OCI commit message
+  description: This hook validates if the commit message follows the style defined in OCI
+  entry: pre-commit-hooks/check-oci-commit-message.sh
+  language: script
+  types: [text]
